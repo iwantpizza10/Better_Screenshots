@@ -1,11 +1,5 @@
 name: win
 
-on:
-  workflow_dispatch:
-  push:
-    branches:
-      - "wa"
-
 jobs:
   build:
     strategy:
