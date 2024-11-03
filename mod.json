@@ -1,11 +1,14 @@
 {
-	"geode": "2.0.0-beta.23",
-	"gd": "2.204",
-	"version": "v1.0.0",
+	"geode": "3.9.0",
+	"gd": {
+		"win": "2.206",
+		"android": "2.206"
+	},
+	"version": "v1.0.1",
 	"id": "zilko.better_screenshots",
 	"name": "Better Screenshots",
 	"developer": "Zilko",
-	"description": "Take screenshots and save them to the clipboard.",
+	"description": "Take screenshots and save them to clipboard",
 	"settings": {
 		"auto_pause": {
 			"name": "Pause On Snip",
@@ -33,8 +36,10 @@
 			"importance": "required"
 		}
 	],
-	"repository": "https://github.com/ZiLko/Better_Screenshots",
+	"links": {
+		"source": "https://github.com/ZiLko/Better_Screenshots"
+	},
 	"tags": [
-		"Utility"
+		"utility", "offline"
 	]
 }
